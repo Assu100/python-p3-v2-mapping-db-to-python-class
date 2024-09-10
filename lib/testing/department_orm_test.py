@@ -105,10 +105,10 @@ class TestDepartment:
         Department.create_table()
 
         department1 = Department.create(
-            "Human Resources", "Building C, East Wing")
+            "Human Resources", "Building C", "East Wing")
         id1 = department1.id
         department2 = Department.create(
-            "Sales and Marketing", "Building B, 4th Floor")
+            "Sales and Marketing", "Building B", "4th Floor")
         id2 = department2.id
 
         department2.delete()
